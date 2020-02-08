@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FCExtensionSwiftKit'
-  s.version          = '0.1.0'
+  s.version          = '0.0.1'
   s.summary          = 'A short description of FCExtensionSwiftKit.'
 
 # This description is used to generate tags and improve search results.
@@ -21,16 +21,32 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/2585299617@qq.com/FCExtensionSwiftKit'
+  s.homepage         = 'https://github.com/Q007shi/FCExtensionSwiftKit'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '2585299617@qq.com' => '2585299617@qq.com' }
-  s.source           = { :git => 'https://github.com/2585299617@qq.com/FCExtensionSwiftKit.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/Q007shi/FCExtensionSwiftKit.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
+  s.swift_versions = ['5.0', '5.1']
 
-  s.source_files = 'FCExtensionSwiftKit/Classes/**/*'
+#  s.source_files = 'FCExtensionSwiftKit/Classes/**/*'
+
+#字符串
+s.subspec 'StringExtension' do |stringExtension|
+  stringExtension.source_files = 'FCExtensionSwiftKit/Classes/StringExtension/**/*.swift'
+end
+
+#颜色
+s.subspec 'ColorExtension' do |colorExtension|
+  colorExtension.source_files = 'FCExtensionSwiftKit/Classes/ColorExtension/**/*.swift'
+end
+
+#按钮
+s.subspec 'ButtonExtension' do |buttonExtension|
+  buttonExtension.source_files = 'FCExtensionSwiftKit/Classes/ButtonExtension/**/*.swift'
+end
   
   # s.resource_bundles = {
   #   'FCExtensionSwiftKit' => ['FCExtensionSwiftKit/Assets/*.png']

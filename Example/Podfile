@@ -3,9 +3,4 @@ use_frameworks!
 target 'FCExtensionSwiftKit_Example' do
   pod 'FCExtensionSwiftKit', :path => '../'
 
-  target 'FCExtensionSwiftKit_Tests' do
-    inherit! :search_paths
-
-    pod 'FBSnapshotTestCase' , '~> 2.1.4'
-  end
 end

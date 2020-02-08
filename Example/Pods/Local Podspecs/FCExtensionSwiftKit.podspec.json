@@ -1,0 +1,35 @@
+{
+  "name": "FCExtensionSwiftKit",
+  "version": "0.0.1",
+  "summary": "A short description of FCExtensionSwiftKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Q007shi/FCExtensionSwiftKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "2585299617@qq.com": "2585299617@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/Q007shi/FCExtensionSwiftKit.git",
+    "tag": "0.0.1"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "subspecs": [
+    {
+      "name": "StringExtension",
+      "source_files": "FCExtensionSwiftKit/Classes/StringExtension/**/*.swift"
+    },
+    {
+      "name": "ColorExtension",
+      "source_files": "FCExtensionSwiftKit/Classes/ColorExtension/**/*.swift"
+    },
+    {
+      "name": "ButtonExtension",
+      "source_files": "FCExtensionSwiftKit/Classes/ButtonExtension/**/*.swift"
+    }
+  ]
+}

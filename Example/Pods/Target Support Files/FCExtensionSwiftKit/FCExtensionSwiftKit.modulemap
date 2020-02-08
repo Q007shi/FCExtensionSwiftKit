@@ -1,0 +1,6 @@
+framework module FCExtensionSwiftKit {
+  umbrella header "FCExtensionSwiftKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

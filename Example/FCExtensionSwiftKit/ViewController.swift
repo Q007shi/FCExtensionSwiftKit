@@ -7,17 +7,21 @@
 //
 
 import UIKit
+import FCExtensionSwiftKit
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+        
+        let imageView = UIImageView(frame: CGRect(x: 100, y: 100, width: 100, height: 100))
+        imageView.layer.borderWidth = 1
+        imageView.layer.borderColor = UIColor.black.cgColor
+        view.addSubview(imageView)
+        imageView.image = UIColor.fc_RGBValue(RGBValue: 0xFFB6C1).fc_image
+        
+        view.backgroundColor = UIColor.fc_RGBAValue(RGBAValue: 0xFFB6C1FF)
+        
     }
 
 }
