@@ -19,7 +19,7 @@ extension UIColor{
     
     /// 获取当前颜色的透明度
     public var fc_alpha: CGFloat{
-        return self.cgColor.alpha
+        return cgColor.alpha
     }
     
     /// 获取当前颜色的 RGBA 值
@@ -132,10 +132,8 @@ extension UIColor{
         if hexValueStr.isEmpty { return clear }
         switch hexValueStr.count {
         case 3://RGB
-            let rChar: Character = hexValueStr.first!
-            let gChar: Character = hexValueStr[hexValueStr.index(hexValueStr.startIndex, offsetBy: 1)]
-            let bChar: Character = hexValueStr.last!
-            let str = "\(rChar)" + "\(rChar)" + "\(gChar)" + "\(gChar)" + "\(bChar)" + "\(bChar)"
+            let chars = Array(hexValueStr)
+            let str = "\(chars[0])\(chars[0])" + "\(chars[1])\(chars[1])" + "\(chars[2])\(chars[2])"
 //            let scanner = Scanner(string: str)
 //            if #available(iOS 13.0, *) {
 //                guard let hexValue = scanner.scanInt32() else{ return clear }
@@ -145,11 +143,8 @@ extension UIColor{
             guard let hexValue = UInt32(str, radix: 16) else{ return clear }
             return  fc_RGBValue(RGBValue: hexValue)
         case 4://RGBA
-            let rChar: Character = hexValueStr.first!
-            let gChar: Character = hexValueStr[hexValueStr.index(hexValueStr.startIndex, offsetBy: 1)]
-            let bChar: Character = hexValueStr[hexValueStr.index(hexValueStr.startIndex, offsetBy: 2)]
-            let aChar: Character = hexValueStr.last!
-            let str = "\(rChar)" + "\(rChar)" + "\(gChar)" + "\(gChar)" + "\(bChar)" + "\(bChar)" + "\(aChar)" + "\(aChar)"
+            let chars = Array(hexValueStr)
+            let str = "\(chars[0])\(chars[0])" + "\(chars[1])\(chars[1])" + "\(chars[2])\(chars[2])" + "\(chars[3])\(chars[3])"
             guard let hexValue = UInt32(str, radix: 16) else{ return clear }
             return fc_RGBAValue(RGBAValue: hexValue)
         case 6://RRGGBB

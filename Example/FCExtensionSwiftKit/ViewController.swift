@@ -21,6 +21,7 @@ class ViewController: UIViewController {
         imageView.image = UIColor.fc_RGBValue(RGBValue: 0xFFB6C1).fc_image
         
         view.backgroundColor = UIColor.fc_RGBAValue(RGBAValue: 0xFFB6C1FF)
+        UIColor.fc_hexValueString(hexValueString: "#456")
         
     }
 

@@ -1,6 +1,6 @@
 {
   "name": "FCExtensionSwiftKit",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "summary": "A short description of FCExtensionSwiftKit.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/Q007shi/FCExtensionSwiftKit",
@@ -13,23 +13,30 @@
   },
   "source": {
     "git": "https://github.com/Q007shi/FCExtensionSwiftKit.git",
-    "tag": "0.0.1"
+    "tag": "0.0.2"
   },
   "platforms": {
     "ios": "8.0"
   },
+  "swift_versions": [
+    "5.0",
+    "5.1"
+  ],
+  "requires_arc": true,
+  "source_files": "FCExtensionSwiftKit/Classes/**/*.swift",
   "subspecs": [
     {
       "name": "StringExtension",
-      "source_files": "FCExtensionSwiftKit/Classes/StringExtension/**/*.swift"
+      "source_files": "FCExtensionSwiftKit/Classes/StringExtension/**/*"
     },
     {
       "name": "ColorExtension",
-      "source_files": "FCExtensionSwiftKit/Classes/ColorExtension/**/*.swift"
+      "source_files": "FCExtensionSwiftKit/Classes/ColorExtension/**/*"
     },
     {
       "name": "ButtonExtension",
-      "source_files": "FCExtensionSwiftKit/Classes/ButtonExtension/**/*.swift"
+      "source_files": "FCExtensionSwiftKit/Classes/ButtonExtension/**/*"
     }
-  ]
+  ],
+  "swift_version": "5.1"
 }
