@@ -1,11 +1,11 @@
 PODS:
-  - FCExtensionSwiftKit (0.0.2):
-    - FCExtensionSwiftKit/ButtonExtension (= 0.0.2)
-    - FCExtensionSwiftKit/ColorExtension (= 0.0.2)
-    - FCExtensionSwiftKit/StringExtension (= 0.0.2)
-  - FCExtensionSwiftKit/ButtonExtension (0.0.2)
-  - FCExtensionSwiftKit/ColorExtension (0.0.2)
-  - FCExtensionSwiftKit/StringExtension (0.0.2)
+  - FCExtensionSwiftKit (0.0.1):
+    - FCExtensionSwiftKit/ButtonExtension (= 0.0.1)
+    - FCExtensionSwiftKit/ColorExtension (= 0.0.1)
+    - FCExtensionSwiftKit/StringExtension (= 0.0.1)
+  - FCExtensionSwiftKit/ButtonExtension (0.0.1)
+  - FCExtensionSwiftKit/ColorExtension (0.0.1)
+  - FCExtensionSwiftKit/StringExtension (0.0.1)
 
 DEPENDENCIES:
   - FCExtensionSwiftKit (from `../`)
@@ -15,7 +15,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  FCExtensionSwiftKit: d5bf06e0389953b12978c9199d868b16024f6458
+  FCExtensionSwiftKit: fadb92aeb8af13560473c5dbf4d1cbad5aa79456
 
 PODFILE CHECKSUM: c1b72e70f0bbfb2dee1cec6f0a7fbc63e8e50b1c
 
