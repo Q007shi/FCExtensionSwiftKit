@@ -32,7 +32,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		06D6E366FFB57C0BF79598A5B36B80F5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		06D6E366FFB57C0BF79598A5B36B80F5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		19DC8C3CD8D51CC4BBF7CD432E257922 /* FCExtensionSwiftKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FCExtensionSwiftKit-dummy.m"; sourceTree = "<group>"; };
 		2707B3485C7724580AE822DD8D0B641E /* Button+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Button+Extension.swift"; sourceTree = "<group>"; };
 		2A5040EC07FC80333B3BF70277E9F4B1 /* Pods-FCExtensionSwiftKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FCExtensionSwiftKit_Example-frameworks.sh"; sourceTree = "<group>"; };
@@ -42,14 +42,14 @@
 		3D985F0FE60888C679C6B588B8F64018 /* UIColor+TransformExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIColor+TransformExtension.swift"; sourceTree = "<group>"; };
 		531435028AF3819E9E00645FF6731FD1 /* String+EncryptionExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "String+EncryptionExtension.swift"; sourceTree = "<group>"; };
 		5ABB00D05D86090812B075870E50E269 /* Pods-FCExtensionSwiftKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FCExtensionSwiftKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		60814DDDFC28FD5DE76688300C288525 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		60814DDDFC28FD5DE76688300C288525 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		642D235FFDA922153C6B85D7C9630DE8 /* String+BaseExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "String+BaseExtension.swift"; sourceTree = "<group>"; };
-		8296CCAF56F92C073B8DF91F5669B73E /* FCExtensionSwiftKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = FCExtensionSwiftKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8296CCAF56F92C073B8DF91F5669B73E /* FCExtensionSwiftKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = FCExtensionSwiftKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		8616FFCDB5597CE5FFD85E0C35550E27 /* FCExtensionSwiftKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FCExtensionSwiftKit-umbrella.h"; sourceTree = "<group>"; };
-		871529B58675152980ECADBCCF201011 /* Pods_FCExtensionSwiftKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FCExtensionSwiftKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		871529B58675152980ECADBCCF201011 /* Pods_FCExtensionSwiftKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FCExtensionSwiftKit_Example.framework; path = "Pods-FCExtensionSwiftKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		91B79785F899C976F5F6480353675615 /* FCExtensionSwiftKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FCExtensionSwiftKit-Info.plist"; sourceTree = "<group>"; };
 		95B077E9329B3BA58C660EA2A35FD607 /* String+RegexExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "String+RegexExtension.swift"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A8B55332A0BCDF1BCDD168D1EE2F31C6 /* Pods-FCExtensionSwiftKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FCExtensionSwiftKit_Example-umbrella.h"; sourceTree = "<group>"; };
 		ABAE26F704C6AB975736CFAEDCB3D7AC /* FCExtensionSwiftKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FCExtensionSwiftKit.xcconfig; sourceTree = "<group>"; };
 		AE2252E002DE7B574675E0F0CA1CCB1C /* Pods-FCExtensionSwiftKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FCExtensionSwiftKit_Example.modulemap"; sourceTree = "<group>"; };
@@ -57,7 +57,7 @@
 		CE6599DE773AC0D287A8E526C452A549 /* Pods-FCExtensionSwiftKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FCExtensionSwiftKit_Example-Info.plist"; sourceTree = "<group>"; };
 		DBAF8E49AC5D3FFE9307A841E125C7F6 /* Pods-FCExtensionSwiftKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FCExtensionSwiftKit_Example-dummy.m"; sourceTree = "<group>"; };
 		EC647D26F1B47201F104FD30FF95B76A /* FCExtensionSwiftKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FCExtensionSwiftKit-prefix.pch"; sourceTree = "<group>"; };
-		EC8585869202C8BE23D8E08B578480D0 /* FCExtensionSwiftKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FCExtensionSwiftKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC8585869202C8BE23D8E08B578480D0 /* FCExtensionSwiftKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FCExtensionSwiftKit.framework; path = FCExtensionSwiftKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4080110A64624EE7C4A51552AC38BEA /* String+SubExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "String+SubExtension.swift"; sourceTree = "<group>"; };
 		FF228757340FA27B528910CE740AACB8 /* Pods-FCExtensionSwiftKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FCExtensionSwiftKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -284,7 +284,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
-				LastUpgradeCheck = 1130;
+				LastUpgradeCheck = 1100;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -357,7 +357,7 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		10CA813721D3996778C61CE8E6FD02B5 /* Debug */ = {
+		35D1B478BC9DE708E6F2E0C81AA3AF02 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = ABAE26F704C6AB975736CFAEDCB3D7AC /* FCExtensionSwiftKit.xcconfig */;
 			buildSettings = {
@@ -381,7 +381,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.1;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -441,7 +441,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -545,38 +546,6 @@
 			};
 			name = Debug;
 		};
-		C9534FAF3419E8CE236FE121663EC4DF /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = ABAE26F704C6AB975736CFAEDCB3D7AC /* FCExtensionSwiftKit.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/FCExtensionSwiftKit/FCExtensionSwiftKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FCExtensionSwiftKit/FCExtensionSwiftKit-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FCExtensionSwiftKit/FCExtensionSwiftKit.modulemap";
-				PRODUCT_MODULE_NAME = FCExtensionSwiftKit;
-				PRODUCT_NAME = FCExtensionSwiftKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.1;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		D9436BAEE83ED830ED96F192592B9473 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B984EA0C05FCFB4EC4706320BC689E25 /* Pods-FCExtensionSwiftKit_Example.debug.xcconfig */;
@@ -610,6 +579,38 @@
 			};
 			name = Debug;
 		};
+		EFB4475EA3889E3D71FE5A87F2C5AF0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABAE26F704C6AB975736CFAEDCB3D7AC /* FCExtensionSwiftKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FCExtensionSwiftKit/FCExtensionSwiftKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FCExtensionSwiftKit/FCExtensionSwiftKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FCExtensionSwiftKit/FCExtensionSwiftKit.modulemap";
+				PRODUCT_MODULE_NAME = FCExtensionSwiftKit;
+				PRODUCT_NAME = FCExtensionSwiftKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -625,8 +626,8 @@
 		6DF24950DF5CCB88CF9A08EC08DB230F /* Build configuration list for PBXNativeTarget "FCExtensionSwiftKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				10CA813721D3996778C61CE8E6FD02B5 /* Debug */,
-				C9534FAF3419E8CE236FE121663EC4DF /* Release */,
+				35D1B478BC9DE708E6F2E0C81AA3AF02 /* Debug */,
+				EFB4475EA3889E3D71FE5A87F2C5AF0C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
